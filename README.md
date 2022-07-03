@@ -2,6 +2,8 @@
 
 Simple **Joke Generator** to put in practice some initials studies in React.
 
+*Jokes from <a href="https://icanhazdadjoke.com/">icanhazdadjoke</a> API*
+
 <p align="center"><img src="./media/screenshot.png"></p>
 
 ## Getting Started 
