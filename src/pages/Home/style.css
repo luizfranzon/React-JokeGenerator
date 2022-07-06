@@ -23,7 +23,8 @@ body {
     color: white;
     font-size: 50px;
 
-    margin-block: 28px;
+    margin-top: 3.125rem;
+    margin-block: 1.75rem;
 }
 
 .generateButton {
@@ -35,14 +36,14 @@ body {
     border: white 3px solid;
     border-radius: 8px;
 
-    width: 220px;
-    height: 50px;
+    width: 13.75rem;
+    height: 3.125rem;
 
     transition: background-color 0.2s, color 0.2s;
 
     cursor: pointer;
 
-    margin-bottom: 52px;
+    margin-bottom: 3.25rem;
 }
 
 .generateButton:active  {
@@ -51,8 +52,8 @@ body {
 }
 
 .jokeBox {
-    width: 535px;
-    padding: 0 20px;
+    width: 33.4375rem;
+    padding: 0 1.25rem;
 }
 
 .jokeResult {
@@ -63,12 +64,12 @@ body {
     text-align: center;
 }
 
-@media (max-width: 535px) {
+@media (max-width: 33.4375rem) {
     .title {
-        font-size: 35px;
+        font-size: 2.1875rem;
     }
     .jokeBox {
-        width: 300px;
+        width: 18.75rem;
     }
     .jokeResult {
         font-size: 1.1rem;
