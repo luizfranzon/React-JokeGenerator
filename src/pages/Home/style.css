@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #090114;
 }
@@ -47,7 +51,8 @@ body {
 }
 
 .jokeBox {
-    width: 500px;
+    width: 535px;
+    padding: 0 20px;
 }
 
 .jokeResult {
@@ -56,4 +61,16 @@ body {
 
     font-size: 24px;
     text-align: center;
+}
+
+@media (max-width: 535px) {
+    .title {
+        font-size: 35px;
+    }
+    .jokeBox {
+        width: 300px;
+    }
+    .jokeResult {
+        font-size: 1.1rem;
+    }
 }
