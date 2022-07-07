@@ -42,11 +42,10 @@ body {
     transition: background-color 0.2s, color 0.2s;
 
     cursor: pointer;
-
     margin-bottom: 3.25rem;
 }
 
-.generateButton:active  {
+.generateButton:active, .generateButton:hover  {
     color: #090114;
     background-color: white;
 }
